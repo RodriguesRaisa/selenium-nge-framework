@@ -1,11 +1,13 @@
 package com.qa.nge.pages;
 
+import org.openqa.selenium.By;
+
 public class cartpage {
 	
-	int i=10;
+	private By cartLocator = By.id("cart");
 	public void cart()
 	{
-		System.out.println("cart method");
+		System.out.println("cart method"+cartLocator);
 	}
 
 }
